@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
@@ -12,13 +13,19 @@
     </head>
     <body>
         <!--ENCABEZADO-->
-        <header class="encabezado">
-            <img class= "logo" src="img/Logo.webp" alt="Logo">
-            <h1>Alucifrador</h1>
+        <header>
+            <div class="contenedor-menu">
+                <a href="javascript:document.location.reload()" class="logo">
+                    <img src="img/Logo.webp" alt="Logo">
+                    <h1>Alucifrador</h1>
+                </a> 
+            </div>
         </header>
+
+        <!--CUERPO-->
         <main>
-            <!--CIFRADO-->
-            <section class="parte1">
+            <!--INPUT-->
+            <section class="seccion-1">
                 <div class="input-text">
                     <textarea placeholder="Ingrese el texto aqui" class="caja-texto"></textarea>
                 </div>
@@ -30,9 +37,10 @@
                     <button class="desencriptador">Desencriptar</button>
                 </div>
             </section>
+
             <!--OUTPUT-->
-            <section class="parte2">
-                <div class="imagen-espera">
+            <section class="seccion-2">
+                <div class="muñeco">
                     <img src="img/Muñeco.avif" alt="Muñeco">
                 </div>
                 <div class="caja-mensaje">
@@ -47,5 +55,17 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <footer>
+                <div class="contenedor-redes">
+                    <a aria-label="links" title="Github" href="https://github.com/jgcamiloaga"><i class="fa-brands fa-github"></i></a>
+                    <a aria-label="links" title="Linkedin" href="https://www.linkedin.com/in/jgcamiloaga/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a aria-label="links" title="Twitter" href="https://twitter.com/jgcamiloaga"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <span class="copyright">&copy; 2024, Johann Camiloaga</span>
+                </div>
+            </footer>
+        </footer>
     </body>
 </html>

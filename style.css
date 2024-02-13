@@ -1,185 +1,98 @@
 *{
+    text-decoration: none;
     margin: 0;
     padding: 0;
-    font-family: 'Inter',sans-serif;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-.encabezado{
+/*ENCABEZADO*/
+header{
+    background-color: yellow;
+}
+
+.contenedor-menu{
+    max-width: 300px;
+    padding: 30px;
+}
+
+.logo{
     display: flex;
-    margin: 40px 40px 40px 0px;
-    width: 120px;
-    height: 48px;
 }
 
-.encabezado h1{
-    font-size: 40px;
+.logo img{
+    width: 150px;
+    height: 60px;
 }
 
-body{
-    background-color: #f4f4fc;
+.logo h1{
+    font-size: 45px;
+    color: #0B0C10;
 }
 
+/*CUERPO*/
 main{
-    position: absolute;
-    width: 100%;
-    height: 90%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+/*SECCION 1*/
+
+.seccion-1{
+    background-color: red;
+    flex: 0.7;
+    width: 300px;
+    height: 1200px;
+
+
+}
+
+/*SECCION 2*/
+.seccion-2{
+    background-color: aqua;
+    flex: 0.2;
+
+}
+
+/*FOOTER*/
+footer{
+    background-color: #0B0C10;
+}
+
+footer .contenedor-redes{
     display: flex;
     justify-content: center;
 }
 
-
-.input-text{
-    position: absolute;
-    left: 120px;
-    padding-left: 100px;
-    height: 600px;
-    width: 1080px;
+.contenedor-redes a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #C5C6C7;
+    margin: 10px;
+    border-radius: 100%;
+    margin-top: 50px;
 }
 
-.caja-texto{
-    position: absolute;
-    width: 60%;
-    height: 700px;
-    background-color: #f4f4fc;
-    border: none;
-    cursor: pointer;
-    color: #0A3871;
-    font-size: 32px;
-    font-weight: 400;
-}
-
-.caja-texto::placeholder{
-    color: #0A3871;
-}
-
-.condiciones{
-    position: absolute;
-    top: 720px;
-    display: flex;
-    left: 215px;
-}
-
-.condiciones i{
-   margin-right: 5px;
-}
-
-.condiciones p{
-    font-size: 12px;
-}
-
-.botones{
-    position: absolute;
-    top: 750px;
-    left: 215px;
-    padding-bottom: 150px;
-}
-
-.botones .encriptador{
-    width: 328px;
-    height: 67px;
-    border-radius: 24px;
-    padding: 24px;
-    font-size: 16px;
-    background-color: #0A3871;
-    color: #D8DFE8;
-    border: none;
-    cursor: pointer;
-    margin-right: 15px;
-}
-
-.botones .desencriptador{
-    width: 328px;
-    height: 67px;
-    border-radius: 25px;
-    padding: 24px;
-    font-size: 16px;
-    gap: 8px;
-    background-color: #D8DFE8;
-    color: #0A3871;
-    border-color: #0A3871;
-    border-style: solid;
-    cursor: pointer;
-}
-
-.parte2{
-    display: block;
-    position: relative;
-    width: 400px;
-    height: 850px;
-    right: 400px;
-    padding-right: 20px;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    border-radius: 32px;
-    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.5);
-    left: 450px;
-}
-
-.imagen-espera{
-    position: absolute;
-    left: 30px;
-    top: 100px;
-    box-sizing: border-box;
-    padding-top: 50px;
-}
-
-.caja-mensaje{
-   position: absolute;
-   box-sizing: border-box;
-   top: 570px;
-   left: 50px;
-}
-
-.caja-mensaje h3{
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    color: #343A40;
-}
-
-.caja-mensaje p{
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #495057;
-    padding-top: 20px;
-}
-
-.output-text{
-    position: absolute;
-    bottom: 410px;
-    width: 320px;
-    height: 450px;
-    padding: 0;
-    box-sizing: border-box;
-    margin-left: 25px;
-}
-
-.output-text p{
-    color: #495057;
+.contenedor-redes a i{
     font-size: 25px;
+    color: #0B0C10;
+    opacity: 0.9;
 }
 
-.copiar-texto{
-    display: flex;
-    position: absolute;
-    top: 700px;
-    padding-left: 40px;
+.contenedor-redes a:hover{
+    background-color: #0B0C10;
+    transition: 0.5;
 }
 
-
-.copiar{
-    width: 328px;
-    height: 67px;
-    border-radius: 24px;
-    background-color: #ffffff;
-    color: #0A3871;
-    font-size: 16px;
-    font-weight: 400;
-    border: 1px solid #0A3871;
-    cursor: pointer;
-    position: relative;
-    top: 50px;
-    right: 4px;
+.contenedor-redes a:hover i{
+    color: #C5C6C7;
 }
+
+.footer-copyright{
+    padding: 20px;
+    text-align: center;
+    color: #C5C6C7;
+}
+
 
