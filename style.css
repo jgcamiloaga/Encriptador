@@ -6,11 +6,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-/*ENCABEZADO*/
-header{
-    background-color: yellow;
-}
-
 .contenedor-menu{
     max-width: 300px;
     padding: 30px;
@@ -27,12 +22,11 @@ header{
 
 .logo h1{
     font-size: 45px;
-    color: #0B0C10;
+    color: #0A3871;
 }
 
 /*CUERPO*/
 main{
-    background-color: orange;
     display: flex;
     align-items: center;
 }
@@ -40,24 +34,124 @@ main{
 /*SECCION 1*/
 
 .seccion-1{
-    background-color: red;
-    flex: 0.7;
-    width: 300px;
-    height: 1200px;
+    height: 1010px;
+    width: auto;
+    padding: 80px ;
+}
 
+.input-text{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 750px;
+}
 
+.cajatexto{
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 35px;
+}
+
+.seccion-1 .condiciones{
+    display: flex;
+    margin: 15px;
+    justify-content:  center;
+}
+
+.condiciones i{
+    padding: 4px 7px 0px 0px;
+}
+
+.seccion-1 .condiciones p{
+    font-size: 18px;
+}
+
+.seccion-1 .botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones .encriptador{
+    padding: 25px 75px;
+    margin: 15px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #0A3871;
+    color: #f4f4fc;
+    cursor: pointer;    
+}
+
+.botones .desencriptador{
+    padding: 25px 75px;
+    margin: 15px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #f4f4fc;
+    color: #0A3871;
+    cursor: pointer;
 }
 
 /*SECCION 2*/
 .seccion-2{
-    background-color: aqua;
-    flex: 0.2;
+    background-color: #f4f4fc;
+    width: 450px;
+    height: 850px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5%;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
 
+.seccion-2 .contenedor-imagen{
+    width: auto;
+    margin: 40px;
+    height: auto;
+    padding-top: 100px;
+}
+
+.caja-mensaje h3{
+    font-size: 30px;
+    padding: 25px;
+}
+
+.caja-mensaje p{
+    font-size: 18px;
+}
+
+.copiar-texto .copiar{
+    padding: 25px 75px;
+    margin-top: 160px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #0A3871;
+    color: #f4f4fc;
+    cursor: pointer;
+}
+
+.output-text{
+    position: absolute;
+    bottom: 330px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.output-text p{
+    color: #495057;
+    font-size: 25px;
 }
 
 /*FOOTER*/
 footer{
     background-color: #0B0C10;
+    margin-top: 50px;
 }
 
 footer .contenedor-redes{
