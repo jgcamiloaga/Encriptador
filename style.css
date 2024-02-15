@@ -133,19 +133,13 @@ main{
     cursor: pointer;
 }
 
-.output-text{
-    position: absolute;
-    bottom: 330px;
-    width: 320px;
-    height: 450px;
-    padding: 0;
-    box-sizing: border-box;
-    margin-left: 25px;
-}
-
 .output-text p{
     color: #495057;
     font-size: 25px;
+}
+
+.ocultar{
+    display: none;
 }
 
 /*FOOTER*/
