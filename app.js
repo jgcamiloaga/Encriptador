@@ -1,8 +1,8 @@
-var botonEncriptar = document.querySelector(".encriptador");
-var botonDesencriptar = document.querySelector(".desencriptador");
-var munieco = document.querySelector(".contenedor-imagen");
-var contenedor = document.querySelector(".caja-mensaje");
-var resultado = document.querySelector(".texto-resultado");
+let botonEncriptar = document.querySelector(".encriptador");
+let botonDesencriptar = document.querySelector(".desencriptador");
+let munieco = document.querySelector(".contenedor-imagen");
+let contenedor = document.querySelector(".caja-mensaje");
+let resultado = document.querySelector(".texto-resultado");
 const botonCopiar = document.querySelector(".copiar")
 const seccion2 = document.querySelector(".seccion-2")
 
@@ -12,7 +12,6 @@ botonCopiar.onclick = copiar;
 
 function copiar(){
     const textoResultado = document.querySelector(".texto-resultado")
-
     navigator.clipboard.writeText(textoResultado.textContent)
 }
 
@@ -39,6 +38,7 @@ function ocultarAdelante(){
     botonCopiar.classList.remove("ocultar");
     seccion2.classList.remove("seccion-2-inicial")
     seccion2.classList.add("seccion-2-final")
+    resultado.classList.remove("ocultar-responsive")
 }
 
 function encriptarTexto(mensaje){
