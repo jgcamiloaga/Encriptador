@@ -144,6 +144,8 @@ main{
 .texto-resultado{
     font-size: 24px;
     color: #495057;
+    overflow: auto;
+    word-break: break-all;
 }
 
 .copiar{
