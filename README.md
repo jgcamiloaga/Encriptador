@@ -6,11 +6,11 @@ El proyecto del Encriptador es una herramienta diseñada para encriptar y desenc
 ## Descripción
 El encriptador utiliza las siguientes "llaves" de encriptación:
 
-La letra "e" se convierte en "enter".
-La letra "i" se convierte en "imes".
-La letra "a" se convierte en "ai".
-La letra "o" se convierte en "ober".
-La letra "u" se convierte en "ufat".
+. La letra "e" se convierte en "enter".
+. La letra "i" se convierte en "imes".
+. La letra "a" se convierte en "ai".
+. La letra "o" se convierte en "ober".
+. La letra "u" se convierte en "ufat".
 
 Este método solo funciona con letras minúsculas y no se deben utilizar letras con acentos ni caracteres especiales.
 
