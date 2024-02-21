@@ -1,16 +1,16 @@
 
 # CHALLENGE Nº 1 - ENCRIPTADOR 
 
-El proyecto del Encriptador es una herramienta diseñada para encriptar y desencriptar el texto ingresado por el usuario. Su objetivo principal radica en permitir el envío de mensajes secretos entre individuos. Este desafío representa una oportunidad para poner en práctica los conocimientos adquiridos durante la formación en Oracle One Education.
+El proyecto del Encriptador es una herramienta diseñada para encriptar y desencriptar el texto ingresado por el usuario. Su objetivo principal radica en permitir el envío de mensajes secretos entre individuos. Este desafío representa una oportunidad para poner en práctica los conocimientos adquiridos durante la formación en **Oracle One Education**.
 
 ## Descripción
 El encriptador utiliza las siguientes "llaves" de encriptación:
 
-. La letra "e" se convierte en "enter".
-. La letra "i" se convierte en "imes".
-. La letra "a" se convierte en "ai".
-. La letra "o" se convierte en "ober".
-. La letra "u" se convierte en "ufat".
+- La letra "e" se convierte en "enter".
+- La letra "i" se convierte en "imes".
+- La letra "a" se convierte en "ai".
+- La letra "o" se convierte en "ober".
+- La letra "u" se convierte en "ufat".
 
 Este método solo funciona con letras minúsculas y no se deben utilizar letras con acentos ni caracteres especiales.
 
