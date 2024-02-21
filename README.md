@@ -1,7 +1,7 @@
 
 # CHALLENGE Nº 1 - ENCRIPTADOR 
 
-El proyecto del Encriptador es una herramienta diseñada para encriptar y desencriptar el texto ingresado por el usuario. Su objetivo principal radica en permitir el envío de mensajes secretos entre individuos. Este desafío representa una oportunidad para poner en práctica los conocimientos adquiridos durante la formación en **Oracle One Education**.
+<p>El proyecto del Encriptador es una herramienta diseñada para encriptar y desencriptar el texto ingresado por el usuario. Su objetivo principal radica en permitir el envío de mensajes secretos entre individuos.</p>Este desafío representa una oportunidad para poner en práctica los conocimientos adquiridos durante la formación en **Oracle One Education**.
 
 ## Descripción
 El encriptador utiliza las siguientes "llaves" de encriptación:
