@@ -164,7 +164,7 @@ main{
 }
 
 /*TABLET*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1440px) {
     body{
         display: block;
     }
@@ -176,7 +176,11 @@ main{
 
     .seccion-1{
         padding: 200px 0px 0 0px;
-        height: 900px;
+        height: 700px;
+    }
+
+    .botones{
+        justify-content: center;
     }
 
     .seccion-2 {
@@ -242,8 +246,13 @@ main{
         display: block;
     }
 
+    .botones .encriptador{
+        width: 100%;
+    }
+
     .botones .desencriptador{
         margin-top: 16px;
+        width: 100%;
     }
 
     .seccion-2 {
