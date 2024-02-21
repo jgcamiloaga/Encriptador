@@ -1,6 +1,6 @@
 let botonEncriptar = document.querySelector(".encriptador");
 let botonDesencriptar = document.querySelector(".desencriptador");
-let munieco = document.querySelector(".contenedor-imagen");
+let imagen = document.querySelector(".contenedor-imagen");
 let contenedor = document.querySelector(".caja-mensaje");
 let resultado = document.querySelector(".texto-resultado");
 const botonCopiar = document.querySelector(".copiar")
@@ -33,12 +33,32 @@ function recuperarTexto(){
 }
 
 function ocultarAdelante(){
-    munieco.classList.add("ocultar");
+    imagen.classList.add("ocultar");
     contenedor.classList.add("ocultar");
     botonCopiar.classList.remove("ocultar");
     seccion2.classList.remove("seccion-2-inicial")
     seccion2.classList.add("seccion-2-final")
     resultado.classList.remove("ocultar-responsive")
+}
+
+function SoloLetrasMinusculas(e){
+    key = e.keyCode || e.which;
+    teclado = String.fromCharCode(key).toString();
+    letras = "abcdefghijklmnopqrstuvwxyz"
+
+    especiales = [8,13,32];
+    teclado_especial = false;
+
+    for(var i in especiales){
+        if(key == especiales[i]){
+            teclado_especial = true;
+            break;
+        }
+    }
+
+    if(letras.indexOf(teclado)== -1 && !teclado_especial){
+        return false;
+    }
 }
 
 function encriptarTexto(mensaje){
@@ -104,3 +124,5 @@ function desencriptarTexto(mensaje){
     return textoFinal;
 
 }
+
+
