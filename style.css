@@ -110,6 +110,13 @@ main{
     resize: none;
 }
 
+.marco-error:focus {
+    box-shadow: 0px 0px 5px 3px rgba(29,1,139,0.85);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(29,1,139,0.85);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(29,1,139,0.85);
+    outline: 0 none;
+}
+
 .seccion-2-inicial{
     width: 400px;
     background-color: white;

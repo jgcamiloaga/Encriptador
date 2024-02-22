@@ -3,8 +3,9 @@ let botonDesencriptar = document.querySelector(".desencriptador");
 let imagen = document.querySelector(".contenedor-imagen");
 let contenedor = document.querySelector(".caja-mensaje");
 let resultado = document.querySelector(".texto-resultado");
-const botonCopiar = document.querySelector(".copiar")
-const seccion2 = document.querySelector(".seccion-2")
+let marco = document.querySelector(".cajatexto");
+const botonCopiar = document.querySelector(".copiar");
+const seccion2 = document.querySelector(".seccion-2");
 
 botonEncriptar.onclick = encriptar;
 botonDesencriptar.onclick = desencriptar;
@@ -59,6 +60,16 @@ function SoloLetrasMinusculas(e){
     if(letras.indexOf(teclado)== -1 && !teclado_especial){
         return false;
     }
+}
+
+function MarcoError(e){
+    console.log(SoloLetrasMinusculas(e));
+    if(SoloLetrasMinusculas(e) === false){
+        marco.classList.add("marco-error");
+    }else{
+        marco.classList.remove("marco-error");
+    }
+    return SoloLetrasMinusculas(e); 
 }
 
 function encriptarTexto(mensaje){
@@ -124,5 +135,3 @@ function desencriptarTexto(mensaje){
     return textoFinal;
 
 }
-
-
