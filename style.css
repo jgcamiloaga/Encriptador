@@ -144,6 +144,10 @@ main{
     font-size: 24px
 }
 
+.caja-mensaje div p{
+    margin-top: 16px;
+}
+
 .caja-mensaje p{
     font-size: 16px;
 }
@@ -171,9 +175,10 @@ main{
 }
 
 /*TABLET*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1030px) {
     body{
         display: block;
+        height: auto;
     }
 
     main{
@@ -182,8 +187,14 @@ main{
     }
 
     .seccion-1{
-        padding: 200px 0px 0 0px;
-        height: 700px;
+        padding: 200px 0 0 0;
+        height: 75vh;
+    }
+
+    .cajatexto{
+        width: 100%;
+        max-height: 700px;
+        height: 100%;
     }
 
     .botones{
@@ -191,8 +202,8 @@ main{
     }
 
     .seccion-2 {
-        width: 100%;
         margin-top: 64px;
+        width: 100%;
     }
 
     .contenedor-imagen{
@@ -203,10 +214,8 @@ main{
 
     .caja-mensaje{
         height: 100%;
-    }
-
-    .texto-resultado{
-        width: 100%;
+        display: grid;
+        place-items: center;
     }
 
     .copiar{
@@ -217,13 +226,17 @@ main{
     .ocultar-responsive{
         display: none;
     }
+
+    .ocultar{
+        display: none;
+    }
 }
 
 /*CELULAR*/
 @media (max-width: 767px) {
     body{
         display: block;
-        
+        height: auto;
     }
 
     main{
@@ -243,10 +256,6 @@ main{
     .seccion-1{
         padding: 112px 0px 0px 0px;
         height: 720px;
-    }
-
-    .input-text{
-        height: 400;
     }
 
     .botones{
